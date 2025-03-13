@@ -14,17 +14,17 @@ const projects = [
   },
   {
     title: "GPT-2 NLP Model",
-    image: "../public/images/gpt2.jpg",
+    image: "./public/images/gpt2.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/Attention-is-all-you-need-Paper-buiding-GPT-2",
   },
   {
     title: "Cloud Deployment Automation",
-    image: "../public/images/cloud-deployment.jpg",
+    image: "../images/cloud-deployment.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/webapp_fork",
   },
   {
     title: "Web Crawler - Boston Real Estate",
-    image: "../public/images/web-crawler.jpg",
+    image: "./images/web-crawler.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/Web_Crawler_Boston_Real_Estate",
   },
   {

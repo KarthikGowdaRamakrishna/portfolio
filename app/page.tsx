@@ -41,7 +41,7 @@ export default function Chat() {
     reload,
     error,
   } = useChat({
-    api: "../app/api/gemini",
+    api: "./api/gemini",
     onResponse: (response) => console.log("API Response:", response),
     onError: (err) => console.error("Chat API Error:", err),
   });
