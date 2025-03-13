@@ -86,3 +86,30 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+@keyframes profileAnimate {
+  0% {
+    border-radius: 55% 45% 40% 60% / 50% 60% 40% 50%;
+  }
+  50% {
+    border-radius: 40% 60% 55% 45% / 60% 40% 55% 45%;
+  }
+  100% {
+    border-radius: 55% 45% 40% 60% / 50% 60% 40% 50%;
+  }
+}
+
+.profile-img {
+  background-image: url("/images/me.jpg"); /* Ensure this matches your file */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  width: 200px; /* Reduced size */
+  height: 150px; /* Reduced size */
+
+  animation: profileAnimate 6s ease-in-out infinite; /* Shorter and smoother */
+}
+
+
