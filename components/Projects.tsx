@@ -4,12 +4,12 @@ import Link from "next/link";
 const projects = [
   {
     title: "Square Results",
-    image: "../public/images/square-results.jpg",
+    image: "./images/square-results.jpg",
     link: "https://sqr-website.vercel.app",
   },
   {
     title: "Aqua Paths",
-    image: "../public/images/aqua-paths.jpg",
+    image: "./images/aqua-paths.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/AquaPaths",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: "Cloud Deployment Automation",
-    image: "../images/cloud-deployment.jpg",
+    image: "./images/cloud-deployment.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/webapp_fork",
   },
   {
