@@ -14,7 +14,7 @@ const Profile = () => {
               Karthik Gowda Ramakrishna
             </h1>
             <p className="text-lg text-gray-600 dark:text-neutral-400">
-              Software Engineer | Cloud & DevOps | ML & Large-Scale Systems
+            full-stack software engineer | DevOps | AI/ML & Large-Scale Systems
             </p>
           </div>
         </div>
