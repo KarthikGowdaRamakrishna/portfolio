@@ -4,42 +4,42 @@ import Link from "next/link";
 const projects = [
   {
     title: "Square Results",
-    image: "/images/square-results.jpg",
+    image: "../public/images/square-results.jpg",
     link: "https://sqr-website.vercel.app",
   },
   {
     title: "Aqua Paths",
-    image: "/images/aqua-paths.jpg",
+    image: "../public/images/aqua-paths.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/AquaPaths",
   },
   {
     title: "GPT-2 NLP Model",
-    image: "/images/gpt2.jpg",
+    image: "../public/images/gpt2.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/Attention-is-all-you-need-Paper-buiding-GPT-2",
   },
   {
     title: "Cloud Deployment Automation",
-    image: "/images/cloud-deployment.jpg",
+    image: "../public/images/cloud-deployment.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/webapp_fork",
   },
   {
     title: "Web Crawler - Boston Real Estate",
-    image: "/images/web-crawler.jpg",
+    image: "../public/images/web-crawler.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/Web_Crawler_Boston_Real_Estate",
   },
   {
     title: "Dynamic Cab Fare Pricing",
-    image: "/images/dynamic-cab-pricing.jpg",
+    image: "../public/images/dynamic-cab-pricing.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/Dynamic-Cab-Fair-Pricing-",
   },
   {
     title: "Drowsiness Detection",
-    image: "/images/drowsiness-detection.jpg",
+    image: "../public/images/drowsiness-detection.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/Drowsiness-Detection",
   },
   {
     title: "Azure Data Engineering",
-    image: "/images/azure-data-engineering.jpg",
+    image: "../public/images/azure-data-engineering.jpg",
     link: "https://github.com/KarthikGowdaRamakrishna/Data-Engineering-with-Azure-Data-Factory-Data-Lake-Gen-2-Synapse-Analytics-and-Azure-Databricks",
   },
 ];
