@@ -128,7 +128,8 @@ export default function Chat() {
                   {messages?.map((message, index) => (
                     <div key={index} className={`mb-4 ${message.role === "user" ? "text-right" : "text-left"}`}>
                       <div className={`inline-block p-2 rounded-lg ${message.role === "user" ? "bg-gray-500 text-white" : "bg-muted"}`}>
-                        <ReactMarkdown children={message.content} remarkPlugins={[remarkGfm]} />
+                      <ReactMarkdown remarkPlugins={[remarkGfm]}>{message.content}
+                       </ReactMarkdown>
                       </div>
                     </div>
                   ))}
